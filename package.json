@@ -1,0 +1,12 @@
+{
+  "name": "nativefier-apps",
+  "version": "0.1.0",
+  "description": "Builds apps using nativefier",
+  "main": "index.js",
+  "repository": "https://github.com/bacongravy/nativefier-apps.git",
+  "author": "David Kramer <bacongravy@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nativefier": "^7.6.1"
+  }
+}
