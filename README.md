@@ -10,13 +10,13 @@ Builds apps using nativefier:
 ```bash
 brew install node
 brew install yarn
-brew install imagemagick
+brew install grunt-cli
 ```
 
 ## Usage
 
 ```bash
-make install
+grunt build && grunt install
 ```
 
 ## Acknowledgements

@@ -1,0 +1,10 @@
+{
+  "gmail": {
+    "name": "Gmail",
+    "fqdn": "mail.google.com"
+  },
+  "google-calendar": {
+    "name": "Google Calendar",
+    "fqdn": "calendar.google.com"
+  }
+}
