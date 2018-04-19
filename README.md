@@ -4,6 +4,7 @@ Builds apps using nativefier:
 
 * Gmail
 * Google Calendar
+* Puppet Tickets
 
 ## Dependencies
 

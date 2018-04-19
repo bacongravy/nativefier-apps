@@ -8,5 +8,10 @@
     "name": "Google Calendar",
     "fqdn": "calendar.google.com",
     "options": ["--counter"]
+  },
+  "puppet-tickets": {
+    "name": "Puppet Tickets",
+    "fqdn": "tickets.puppetlabs.com",
+    "options": ["--enable-native-tabs"]
   }
 }
