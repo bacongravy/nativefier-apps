@@ -9,6 +9,10 @@
     "fqdn": "calendar.google.com",
     "options": ["--counter"]
   },
+  "giphy": {
+    "name": "GIPHY",
+    "fqdn": "giphy.com"
+  },
   "puppet-tickets": {
     "name": "Puppet Tickets",
     "fqdn": "tickets.puppetlabs.com",
