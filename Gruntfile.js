@@ -8,9 +8,17 @@ module.exports = function(grunt) {
     if (identifier != undefined) {
       var done = this.async()
       var app = apps[identifier]
+      var args = ['exec', '--', 'nativefier', '--name', app.name]
+      if (app.options) {
+        args.push(...app.options);
+      }
+      if (!app.fqdn.startsWith('www.')) {
+        args.push('--internal-urls', `^https://${app.fqdn}`);
+      }
+      args.push(`https://${app.fqdn}/`, 'build');
       grunt.util.spawn({
         cmd: 'yarn',
-        args: ['exec', '--', 'nativefier', '--name', app.name, '--counter', '--internal-urls', `${app.fqdn}$`, `https://${app.fqdn}`, 'build']
+        args: args
       }, function(error, result, code) {
         console.log(String(result))
         done()

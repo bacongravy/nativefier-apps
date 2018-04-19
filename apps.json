@@ -1,10 +1,12 @@
 {
   "gmail": {
     "name": "Gmail",
-    "fqdn": "mail.google.com"
+    "fqdn": "mail.google.com",
+    "options": ["--counter"]
   },
   "google-calendar": {
     "name": "Google Calendar",
-    "fqdn": "calendar.google.com"
+    "fqdn": "calendar.google.com",
+    "options": ["--counter"]
   }
 }
