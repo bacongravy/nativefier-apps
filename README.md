@@ -2,6 +2,7 @@
 
 Builds apps using nativefier:
 
+* GIPHY
 * Gmail
 * Google Calendar
 * Puppet Tickets
