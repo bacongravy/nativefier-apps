@@ -15,7 +15,6 @@
   },
   "puppet-tickets": {
     "name": "Puppet Tickets",
-    "fqdn": "tickets.puppetlabs.com",
-    "options": ["--enable-native-tabs"]
+    "fqdn": "tickets.puppetlabs.com"
   }
 }
