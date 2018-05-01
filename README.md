@@ -13,7 +13,6 @@ Builds apps using nativefier:
 brew install node
 brew install yarn
 brew install grunt-cli
-brew install imagemagick
 ```
 
 ## Usage
