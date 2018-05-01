@@ -16,6 +16,7 @@ module.exports = function(grunt) {
         args.push('--internal-urls', `^https://${app.fqdn}`);
       }
       args.push(`https://${app.fqdn}/`, 'build');
+      console.log(`Running: yarn ${args.join(' ')}`)
       grunt.util.spawn({
         cmd: 'yarn',
         args: args
