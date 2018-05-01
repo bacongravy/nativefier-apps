@@ -1173,7 +1173,7 @@ mz@^2.6.0:
 
 "nativefier@https://github.com/bacongravy/nativefier.git#native-tabs":
   version "7.6.1"
-  resolved "https://github.com/bacongravy/nativefier.git#4d32c6d84465653afe88843cfc3e61dae447e449"
+  resolved "https://github.com/bacongravy/nativefier.git#d27da0192371ef1c6d4c0dc4f05feb10961cfca0"
   dependencies:
     async "^2.6.0"
     axios "^0.18.0"
