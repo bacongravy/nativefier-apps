@@ -12,10 +12,10 @@ module.exports = function(grunt) {
       if (app.options) {
         args.push(...app.options);
       }
-      if (!app.fqdn.startsWith('www.')) {
-        args.push('--internal-urls', `^https://${app.fqdn}`);
-      }
-      args.push(`https://${app.fqdn}/`, 'build');
+      var urls = app.additionalUrls || []
+      urls.unshift(app.url)
+      args.push('--internal-urls', `^(${urls.join(")|(")})`)
+      args.push(app.url, 'build');
       console.log(`Running: yarn ${args.join(' ')}`)
       grunt.util.spawn({
         cmd: 'yarn',
