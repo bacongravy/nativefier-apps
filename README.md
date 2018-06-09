@@ -19,8 +19,6 @@ brew install grunt-cli
 
 ```bash
 yarn install
-(cd node_modules/nativefier; yarn install; (cd app; yarn install); yarn run build)
-(cd node_modules/.bin; ln -s ../nativefier/lib/cli.js nativefier)
 grunt build && grunt install
 ```
 

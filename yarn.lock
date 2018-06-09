@@ -1173,9 +1173,9 @@ ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
-"nativefier@https://github.com/jiahaog/nativefier.git":
-  version "7.6.2"
-  resolved "https://github.com/jiahaog/nativefier.git#be25eab45d4e2c0bd8a3cd2522cefbd5af6f1c93"
+nativefier@^7.6.4:
+  version "7.6.4"
+  resolved "https://registry.yarnpkg.com/nativefier/-/nativefier-7.6.4.tgz#042bdaf95ce30cd034f88eeeeb8878428da296ad"
   dependencies:
     async "^2.6.0"
     axios "^0.18.0"
@@ -1194,7 +1194,7 @@ ms@2.0.0:
     shelljs "^0.8.1"
     source-map-support "^0.5.3"
     tmp "0.0.33"
-    validator "^9.4.0"
+    validator "^10.2.0"
 
 ncp@^2.0.0:
   version "2.0.0"
@@ -1874,9 +1874,9 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-validator@^9.4.0:
-  version "9.4.1"
-  resolved "https://registry.yarnpkg.com/validator/-/validator-9.4.1.tgz#abf466d398b561cd243050112c6ff1de6cc12663"
+validator@^10.2.0:
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-10.3.0.tgz#157a8c0981858cff381f59aabcdb8f83b57317cc"
 
 verror@1.10.0:
   version "1.10.0"
