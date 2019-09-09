@@ -8,6 +8,6 @@
   "license": "MIT",
   "dependencies": {
     "grunt": "^1.0.3",
-    "nativefier": "^7.6.11"
+    "nativefier": "^7.7.0"
   }
 }
