@@ -2,13 +2,13 @@
   "gmail": {
     "name": "Gmail",
     "url": "https://mail.google.com/",
-    "additionalUrls": ["https://accounts.google.com/", "https://puppet.okta.com/"],
+    "additionalUrls": ["https://www.google.com/accounts", "https://accounts.google.com/", "https://puppet.okta.com/"],
     "options": ["--counter"]
   },
   "google-calendar": {
     "name": "Google Calendar",
     "url": "https://calendar.google.com/",
-    "additionalUrls": ["https://accounts.google.com/", "https://puppet.okta.com/"],
+    "additionalUrls": ["https://www.google.com/accounts", "https://accounts.google.com/", "https://puppet.okta.com/"],
     "options": ["--counter"]
   },
   "giphy": {
